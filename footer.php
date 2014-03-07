@@ -12,13 +12,13 @@
 		
 		<ul class="clearfix">
 			<li><a href="http://twitter.com/#!/tedxyyc/">Twitter</a></li>
-			<li><a href="http://www.facebook.com/TEDxYYC">Facebook</a></li>
+			<li><a href="http://www.facebook.com/tedxyouthhillsborough">Facebook</a></li>
 			<li><a href="/contact/">Newsletter</a></li>
 		</ul>
 		
 		<a href="/event-details/" class="flagNav">
-			<h2>Friday May 25th 2012</h2>
-			<h3>Telus Spark Science Centre</h3>
+			<h2>Saturday May 24th 2014</h2>
+			<h3>The Nueva School</h3>
 		</a>
 
 	</nav>
