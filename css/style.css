@@ -78,6 +78,7 @@ body{
 	background:url(/img/bg_header.gif) repeat-x top left;
 }
 
+/* Fix issue of 1080p problem*/
 header{
 	position: relative;
 	padding-left: 210px;
