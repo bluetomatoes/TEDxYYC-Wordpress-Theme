@@ -73,19 +73,14 @@ body{
 	background:url(/img/bg.gif) repeat top left;
 }
 
-#wrap{
-	position: relative;
-	background:url(/img/bg_header.gif) repeat-x top left;
-}
 
 /* Fix issue of 1080p problem*/
 header{
 	position: relative;
 	padding-left: 210px;
-	min-width: 558px;
-	max-width: 960px;
 	height: 123px;
 	background: url(/img/bg.gif) repeat top left;
+
 }
 
 #main{
@@ -181,7 +176,7 @@ body[class*="speaker"] #content aside #speakerImgWrapper{
 /* Typography */
 
 body{
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, "Open Sans";
 	font-weight: 300;
 	line-height: 24px;
 	color: #393939;
@@ -196,10 +191,16 @@ h1{
 	font-size: 60px;
 }
 
-h2{
-	font-size: 24px;
+h2 div{
+	font-family: 'Open Sans', Sans-Serif; 
+	letter-spacing: -1px;  
+	padding: 10px; 
+	color: #fff;
+	position: absolute;
+	top:10px;
+	right:83px;
+	font-weight: 200;
 }
-
 
 h3{
 	font-size: 18px;
@@ -238,9 +239,9 @@ a.logo_lrg{
 	float: left;
 	margin-top: 30px;
 	padding: 0;
-	background: url(/img/logo_tedxyycLRG.gif) no-repeat;
-	width: 296px;
-	height: 64px;
+	background: url(/img/TEDxLogoClear_Small2.png) no-repeat;
+	width: 500px;
+	height: 67px;
 	text-indent: 0;
 	line-height: 1px;
 	text-indent: -9999px;
@@ -561,6 +562,16 @@ nav a.flagNav{
 	width: 195px;
 	height: 96px;
 	margin-left: -195px;
+}
+ a.bannerNav{
+	display: block;;
+	margin-top: 30px;
+	text-indent: -9999px;
+	background: url(/img/bg_flag.gif) top left no-repeat;
+	width: 352px;
+	height:78px;
+	margin-right: -352px;
+	float:right;
 }
 
 /***** Homepage *****/

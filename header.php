@@ -17,7 +17,7 @@
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png" />
 	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png" />
-	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="shortcut icon" href="img/favicon.ico" />
 	
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/foundation.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
@@ -59,14 +59,12 @@
 	
 		<header role="banner" class="mainHeader">
 			
-			<a href="<?php echo home_url(); ?>" class="logo_lrg">TEDxYYC</a>
+			<a href="<?php echo home_url(); ?>" class="logo_lrg">TEDxYouth@Hillsborough</a>
 			
 			<a href="#mainNav" class="mobileNav_btn">Menu</a>
-			
-			<hgroup>
-				<h2>Friday May 25th 2012</h2>
-				<h3>Telus Spark Science Centre</h3>
-			</hgroup>
+			<a href="/event-details/" class="bannerNav">
+				<h2><div><br>Saturday May 24th 2014<br></div></h2>
+			</a>
 			
 		</header>
 		

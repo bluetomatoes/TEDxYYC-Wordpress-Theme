@@ -1,5 +1,5 @@
 				<?php get_header(); ?>
-				
+	
 				<section class="flexslider row">
 					<ul class="slides">
 						<li>
@@ -12,10 +12,10 @@
 				
 					<div class="row">
 						<div class="four columns">
-							<h2>Featured 2012 Speakers</h2>
+							<h2>Featured 2014 Speakers</h2>
 						</div>
 						<div class="eight columns">
-							<p>Our 2012 committee has been hard at work curating a list of speakers that we think will educate, inspire, and motivate. Take a peek at our 2012 speaker lineup to date. <a href="/speakers" class="readMore">View our speaker archive.</a></p>
+							<p>Our 2014 team has been hard at work curating a list of speakers that we think will educate, inspire, and motivate. Take a peek at our 2014 speaker lineup to date. <a href="/speakers" class="readMore">View our speaker archive.</a></p>
 						</div>
 					</div>
 					<?php
