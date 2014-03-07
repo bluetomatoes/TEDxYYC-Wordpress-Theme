@@ -1,0 +1,8 @@
+Todo List for TEDxYouth@Hillsborough Wesbite:
+-------------------------------------------------
+Task					User Responsible		Due Date (if applicable)
+
+Redesign Left Banner			?
+Add buttons				BlueTomatoes and Designer	
+Add registration Plugin			BlueTomatoes
+Create local version of website		Widikay
