@@ -6,12 +6,12 @@
 	
 	<nav id="mainNav">
 			
-		<a href="<?php echo home_url(); ?>" class="logo_sm">TEDxYYC</a>
+		<a href="<?php echo home_url(); ?>" class="logo_sm">TEDxYouth@Hillsborough</a>
 	
     	<?php wp_nav_menu(array('theme_location' => 'primary_navigation', 'depth' => 1)); ?>
 		
 		<ul class="clearfix">
-			<li><a href="http://twitter.com/#!/tedxyyc/">Twitter</a></li>
+			<li><a href="http://twitter.com/#!/tedxyouthhillsborough/">Twitter</a></li>
 			<li><a href="http://www.facebook.com/tedxyouthhillsborough">Facebook</a></li>
 			<li><a href="/contact/">Newsletter</a></li>
 		</ul>
@@ -53,7 +53,7 @@
 			<h2>The Twitterverse</h2>
 			
 			 <?php // custom twitter latest widget cuz others don't work
-				$username = "tedxyyc";
+				$username = "tedxyouthhillsborough";
 				$prefix = "<p>";
 				$suffix = "</p>";
 				$feed = "http://search.twitter.com/search.atom?q=from:" . $username . "&rpp=1";
@@ -78,8 +78,6 @@
 		<section class="legalStuff three columns clearfix">
 			<h2>Legal Stuff</h2>
 			<p>This independent TEDx event is operated under license from TED.</p>
-			<p class="legal"><a href="/privacy-policy-terms-of-service/">Privacy Policy</a>   |   <a href="/privacy-policy-terms-of-service/">Terms of Use</a><br />
-			© 2012 TEDxYYC. All rights reserved.</p>
 		</section>
 		
 	</footer>

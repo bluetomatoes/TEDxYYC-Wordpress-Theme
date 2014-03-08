@@ -16,7 +16,7 @@
 				
 						<div class="video_wrapper">
 							<div class="video_container">
-								<iframe width="560" height="315" src="http://www.youtube.com/embed/<?php echo get_post_meta($post->ID, '_tedxyyc_videopick_youtubeID_value', true) ?>" frameborder="0" allowfullscreen></iframe>
+								<iframe width="560" height="315" src="http://www.youtube.com/embed/<?php echo get_post_meta($post->ID, '_tedxyouthhillsborough_videopick_youtubeID_value', true) ?>" frameborder="0" allowfullscreen></iframe>
 							</div>
 						</div>
 				

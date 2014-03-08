@@ -11,18 +11,18 @@
 	
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
-	<!--<meta property="og:image" content="http://tedxyyc.com/img/logo_alt.jpg"/>-->
+	<!--<meta property="og:image" content="http://tedxyouthhillsborough.com/img/logo_alt.jpg"/>-->
 	<meta property="fb:page_id" content="317882900197" />
-	
+	<!--Images-->
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png" />
 	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png" />
-	<link rel="shortcut icon" href="img/favicon.ico" />
-	
+	<link rel="shortcut icon" href="favicon.ico" />
+	<!--Style-->
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/foundation.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
 	
-	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Feed" href="http://feeds.feedburner.com/tedxyyc">
+	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Feed" href="http://feeds.feedburner.com/tedxyouthhillsborough">
 	
 	<script src="<?php echo get_template_directory_uri(); ?>/js/libs/modernizr-2.0.6.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -31,7 +31,9 @@
 	<!-- Waypoints JS -->
   	<script src="<?php echo get_template_directory_uri(); ?>/js/waypoints.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/waypoints.min.js"></script>
-	
+	<!--Animate-->
+	<script type="text/javascript"
+        src="http://code.jquery.com/jquery-latest.js"></script>
 	<!-- FLEX Slider -->
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/flexslider.css" type="text/css" media="screen" />
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.flexslider-min.js"></script>

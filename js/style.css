@@ -516,6 +516,7 @@ nav ul li a{
 	-moz-transition: padding 0.1s ease;
 	-o-transition: padding 0.1s ease;
 	transition: padding 0.1s ease;
+	font-family: 'Open Sans', sans-serif;
 }
 
 nav ul li a:hover{
@@ -526,6 +527,7 @@ nav ul li a:hover{
 	-moz-transition: padding 0.1s ease;
 	-o-transition: padding 0.1s ease;
 	transition: padding 0.1s ease;
+	font-family: 'Open Sans', sans-serif;
 }
 
 nav ul + ul{

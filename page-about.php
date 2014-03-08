@@ -30,7 +30,7 @@ Template Name: About Page
 					)); ?>
 				
 				<h3><?php the_title(); ?></h3>
-				<?php if ( get_post_meta($post->ID, '_tedxyyc_committee_weblinks_value', true) ) : ?>
+				<?php if ( get_post_meta($post->ID, '_tedxyouthhillsborough_committee_weblinks_value', true) ) : ?>
     				<p>Twitter: <a href="http://twitter.com/<?php echo get_post_meta($post->ID, '_tedxyyc_committee_weblinks_value', true) ?>">@<?php echo get_post_meta($post->ID, '_tedxyyc_committee_weblinks_value', true) ?></a></p>
 				<?php endif; ?>
 				

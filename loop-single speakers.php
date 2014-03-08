@@ -1,4 +1,4 @@
-          <!-- loop tedxyyc_speaker home -->
+          <!-- loop tedxyouthhillsborough_speaker home -->
           <?php query_posts('post_type=speaker&showposts=6'); ?>
           <?php /* Start loop */ ?>
           <?php while (have_posts()) : the_post(); ?>
@@ -24,8 +24,8 @@
           
           
           
-          <!-- loop tedxyyc_speaker Speakers page -->
-          <?php query_posts('post_type=tedxyyc_speaker&showposts=6'); ?>
+          <!-- loop tedxyouthhillsborough_speaker Speakers page -->
+          <?php query_posts('post_type=tedxyouthhillsborough_speaker&showposts=6'); ?>
           <?php /* Start loop */ ?>
           <?php while (have_posts()) : the_post(); ?>
           	<?php roots_post_before(); ?>

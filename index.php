@@ -9,7 +9,7 @@
 				<?php
 					$args = array(			  		
 						'post_type' => array('post', 'videopick'),
-						'year' => '2012',
+						'year' => '2014',
 					);
 					
 					query_posts($args);

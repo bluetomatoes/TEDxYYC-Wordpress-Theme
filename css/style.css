@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6, p, li{
 h1{
 	font-size: 60px;
 }
-
+/* fix issue of text being misaligned in incognito but not in normal*/
 h2 div{
 	font-family: 'Open Sans', Sans-Serif; 
 	letter-spacing: -1px;  
@@ -206,6 +206,10 @@ h2 div{
 	top:10px;
 	right:83px;
 	font-weight: 200;
+}
+
+.aParent div {
+	
 }
 h3 div {
 	font-family: 'Open Sans',sans-serif;
@@ -522,6 +526,7 @@ nav ul li a{
 	-moz-transition: padding 0.1s ease;
 	-o-transition: padding 0.1s ease;
 	transition: padding 0.1s ease;
+	font-family: 'Open Sans', sans-serif;
 }
 
 nav ul li a:hover{
@@ -532,7 +537,9 @@ nav ul li a:hover{
 	-moz-transition: padding 0.1s ease;
 	-o-transition: padding 0.1s ease;
 	transition: padding 0.1s ease;
+	font-family: 'Open Sans', sans-serif;
 }
+
 
 nav ul + ul{
 	margin-top: 30px;

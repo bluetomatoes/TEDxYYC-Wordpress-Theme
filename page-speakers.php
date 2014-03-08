@@ -16,8 +16,8 @@ Template Name: Speakers
 		<?php
 			$newspeaker_args = array(			  		
 					'post_type' => 'speakers',
-					'taxonomy' => 'tedxyycYear',
-					'term' => '2012',
+					'taxonomy' => 'tedxyouthhillsboroughYear',
+					'term' => '2014',
 					'orderby' => 'title',
 					'order' => 'ASC',
 				);
