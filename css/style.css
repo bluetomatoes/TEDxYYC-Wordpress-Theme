@@ -81,15 +81,12 @@ header{
 	height: 123px;
 	background: url(/img/bg.gif) repeat top left;
 
-<<<<<<< HEAD
-=======
 }
 subHeader{
 	position: relative;
 	padding-left: 210px;
 	height: 64px;
 	background: url(/img/bg.gif) repeat top left;
->>>>>>> FETCH_HEAD
 }
 
 #main{
@@ -199,7 +196,7 @@ h1, h2, h3, h4, h5, h6, p, li{
 h1{
 	font-size: 60px;
 }
-
+/* fix issue of text being misaligned in incognito but not in normal*/
 h2 div{
 	font-family: 'Open Sans', Sans-Serif; 
 	letter-spacing: -1px;  
@@ -207,12 +204,12 @@ h2 div{
 	color: #fff;
 	position: absolute;
 	top:10px;
-	right:83px;
+	right:20px;
 	font-weight: 200;
-<<<<<<< HEAD
 }
 
-=======
+.aParent div {
+	
 }
 h3 div {
 	font-family: 'Open Sans',sans-serif;
@@ -225,7 +222,6 @@ h3 div {
 	font-weight: 400;
 	font-size: 20px;
 }
->>>>>>> FETCH_HEAD
 h3{
 	font-size: 18px;
 	padding: 0 0 12px 0;
@@ -273,7 +269,7 @@ a.logo_lrg{
 
 header hgroup{
 	background: url(/img/bg_flag.gif) no-repeat;
-	width: 352px;
+	width: 290px;
 	height: 78px;
 	text-indent: -9999px;
 	line-height: 1px;
@@ -592,9 +588,9 @@ nav a.flagNav{
 	margin-top: 30px;
 	text-indent: -9999px;
 	background: url(/img/bg_flag.gif) top left no-repeat;
-	width: 352px;
+	width: 290px;
 	height:78px;
-	margin-right: -352px;
+	margin-right: -290px;
 	float:right;
 }
 
@@ -949,7 +945,7 @@ body.speakers a.speakerLink{
 	padding: 4px 20px;
 	margin-bottom: 24px;
 	font-size: 13px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	text-align: center;
 	color:#FFFFFF;
