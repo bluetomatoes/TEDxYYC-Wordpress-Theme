@@ -1,5 +1,5 @@
-          <!-- loop tedxyyc_tedvideo -->
-          <?php query_posts('post_type=tedxyyc_tedvideo&showposts=3'); ?>
+          <!-- loop tedxyouthhillsborough_tedvideo -->
+          <?php query_posts('post_type=tedxyouthhillsborough_tedvideo&showposts=3'); ?>
           <?php /* Start loop */ ?>
           <?php while (have_posts()) : the_post(); ?>
           	<?php roots_post_before(); ?>

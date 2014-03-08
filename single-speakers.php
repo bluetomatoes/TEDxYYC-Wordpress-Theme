@@ -22,9 +22,9 @@
 						</div>
 						
 						<?php 
-						$speaker_twitterID = get_post_meta($post->ID, '_tedxyyc_speaker_twitterID_value', true);
-						$speaker_email = get_post_meta($post->ID, '_tedxyyc_speaker_email_value', true);
-						$speaker_website = get_post_meta($post->ID, '_tedxyyc_speaker_website_value', true);
+						$speaker_twitterID = get_post_meta($post->ID, '_tedxyouthhillsborough_speaker_twitterID_value', true);
+						$speaker_email = get_post_meta($post->ID, '_tedxyouthhillsborough_speaker_email_value', true);
+						$speaker_website = get_post_meta($post->ID, '_tedxyouthhillsborough_speaker_website_value', true);
 						if ($speaker_twitterID) : ?>
     						<p><strong>Twitter:</strong> <a href="http://twitter.com/<?php echo $speaker_twitterID ?>"> <?php echo $speaker_twitterID ?></a><br />
 						<?php endif; ?>
@@ -44,10 +44,10 @@
 				
 						<?php the_content(); ?>
 						
-						<?php if (get_post_meta($post->ID, '_tedxyyc_speaker_tedtalk_value', true)) : ?>
+						<?php if (get_post_meta($post->ID, '_tedxyouthhillsborough_speaker_tedtalk_value', true)) : ?>
 						<div class="video_wrapper">
 							<div class="video_container">
-								<iframe width="560" height="315" src="http://www.youtube.com/embed/<?php echo get_post_meta($post->ID, '_tedxyyc_speaker_tedtalk_value', true) ?>" frameborder="0" allowfullscreen></iframe>
+								<iframe width="560" height="315" src="http://www.youtube.com/embed/<?php echo get_post_meta($post->ID, '_tedxyouthhillsborough_speaker_tedtalk_value', true) ?>" frameborder="0" allowfullscreen></iframe>
 							</div>
 						</div>
 						<?php endif; ?>

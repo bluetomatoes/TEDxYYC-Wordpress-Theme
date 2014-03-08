@@ -1,5 +1,6 @@
-          <!-- loop tedxyyc_committee -->
-          <?php query_posts('post_type=tedxyyc_committee&showposts=3'); ?>
+          <!-- loop tedxyouthhillsborough_committee -->
+          <?php query_posts('post_type=tedxyouthhillsborough
+          _committee&showposts=3'); ?>
           <?php /* Start loop */ ?>
           <?php while (have_posts()) : the_post(); ?>
           	<?php roots_post_before(); ?>

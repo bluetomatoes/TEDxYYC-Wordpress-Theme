@@ -211,6 +211,10 @@ h2 div{
 .aParent div {
 	
 }
+
+.aParent div {
+	
+}
 h3 div {
 	font-family: 'Open Sans',sans-serif;
 	letter-spacing: -1px;
@@ -526,6 +530,7 @@ nav ul li a{
 	-moz-transition: padding 0.1s ease;
 	-o-transition: padding 0.1s ease;
 	transition: padding 0.1s ease;
+	font-family: 'Open Sans', sans-serif;
 }
 
 nav ul li a:hover{
@@ -536,7 +541,9 @@ nav ul li a:hover{
 	-moz-transition: padding 0.1s ease;
 	-o-transition: padding 0.1s ease;
 	transition: padding 0.1s ease;
+	font-family: 'Open Sans', sans-serif;
 }
+
 
 nav ul + ul{
 	margin-top: 30px;
