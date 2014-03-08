@@ -81,12 +81,15 @@ header{
 	height: 123px;
 	background: url(/img/bg.gif) repeat top left;
 
+<<<<<<< HEAD
+=======
 }
 subHeader{
 	position: relative;
 	padding-left: 210px;
 	height: 64px;
 	background: url(/img/bg.gif) repeat top left;
+>>>>>>> FETCH_HEAD
 }
 
 #main{
@@ -206,6 +209,10 @@ h2 div{
 	top:10px;
 	right:83px;
 	font-weight: 200;
+<<<<<<< HEAD
+}
+
+=======
 }
 
 .aParent div {
@@ -222,6 +229,7 @@ h3 div {
 	font-weight: 400;
 	font-size: 20px;
 }
+>>>>>>> FETCH_HEAD
 h3{
 	font-size: 18px;
 	padding: 0 0 12px 0;

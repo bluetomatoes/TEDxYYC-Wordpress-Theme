@@ -1,7 +1,11 @@
 				<?php get_header(); ?>
+<<<<<<< HEAD
 
 	
 
+=======
+	
+>>>>>>> 51fd83a96ddf1687fd3e784e68440b5282d79deb
 				<section class="flexslider row">
 
 					<ul class="slides">
