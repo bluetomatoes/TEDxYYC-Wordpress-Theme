@@ -204,8 +204,15 @@ h2 div{
 	color: #fff;
 	position: absolute;
 	top:10px;
-	right:83px;
+	right:20px;
 	font-weight: 200;
+<<<<<<< HEAD
+=======
+}
+
+.aParent div {
+	
+>>>>>>> c8be3dff7d8b704fbfc5642c9f8e2046bb86c8b4
 }
 
 .aParent div {
@@ -269,7 +276,7 @@ a.logo_lrg{
 
 header hgroup{
 	background: url(/img/bg_flag.gif) no-repeat;
-	width: 352px;
+	width: 290px;
 	height: 78px;
 	text-indent: -9999px;
 	line-height: 1px;
@@ -591,9 +598,9 @@ nav a.flagNav{
 	margin-top: 30px;
 	text-indent: -9999px;
 	background: url(/img/bg_flag.gif) top left no-repeat;
-	width: 352px;
+	width: 290px;
 	height:78px;
-	margin-right: -352px;
+	margin-right: -290px;
 	float:right;
 }
 
@@ -948,7 +955,7 @@ body.speakers a.speakerLink{
 	padding: 4px 20px;
 	margin-bottom: 24px;
 	font-size: 13px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	text-align: center;
 	color:#FFFFFF;

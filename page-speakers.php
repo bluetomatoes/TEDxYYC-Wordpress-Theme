@@ -57,7 +57,7 @@ Template Name: Speakers
 			$oldspeaker_args = array(			  		
 					'post_type' => 'speakers',
 					'taxonomy' => 'tedxyycYear',
-					'term' => '2011',
+					'term' => '2014',
 					'orderby' => 'title',
 					'order' => 'ASC',
 				);
