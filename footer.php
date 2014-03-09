@@ -11,9 +11,11 @@
     	<?php wp_nav_menu(array('theme_location' => 'primary_navigation', 'depth' => 1)); ?>
 		
 		<ul class="clearfix">
-			<li><a href="http://twitter.com/#!/tedxyouthhillsborough/">Twitter</a></li>
-			<li><a href="http://www.facebook.com/tedxyouthhillsborough">Facebook</a></li>
-			<li><a href="/contact/">Newsletter</a></li>
+			<li><a href="http://tedxyouthhillsborough.com/about">About</a></li>
+			<li><a href="http://tedxyouthhillsborough.com/event-details">Event Details</a></li>
+			<li><a href="http://tedxyouthhillsborough.com/speakers">Speakers</a></li>
+			<li><a href="http://tedxyouthhillsborough.com/sponsors">Sponsors</a></li>
+			<li><a href="http://tedxyouthhillsborough.com/register">Register</a></li>
 		</ul>
 		
 		<a href="/event-details/" class="flagNav">
@@ -47,32 +49,6 @@
 				'theme_location' => 'footer_social',
 				));
 			?>
-		</section>
-		
-		<section class="recentTweet three columns clearfix">
-			<h2>The Twitterverse</h2>
-			
-			 <?php // custom twitter latest widget cuz others don't work
-				$username = "tedxyouthhillsborough";
-				$prefix = "<p>";
-				$suffix = "</p>";
-				$feed = "http://search.twitter.com/search.atom?q=from:" . $username . "&rpp=1";
-				
-				function parse_feed($feed) {
-				    $stepOne = explode("<content type=\"html\">", $feed);
-				    $stepTwo = explode("</content>", $stepOne[1]);
-				    $tweet = $stepTwo[0];
-				    $tweet = str_replace("&lt;", "<", $tweet);
-				    $tweet = str_replace("&gt;", ">", $tweet);
-				    return $tweet;
-				}
-				
-				$twitterFeed = file_get_contents($feed);
-				echo stripslashes($prefix) . parse_feed($twitterFeed) . stripslashes($suffix);
-			?>
-			
-			<span style="float:right;">TEDxYYC on <a href="http://twitter.com/tedxyyc/">Twitter.com</a></span>
-				
 		</section>
 		
 		<section class="legalStuff three columns clearfix">

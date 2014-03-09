@@ -65,12 +65,9 @@
 			
 			<a href="#mainNav" class="mobileNav_btn">Menu</a>
 			<a href="/event-details/" class="bannerNav">
-<<<<<<< HEAD
+
 				<h2><div><br>Saturday May 24th 2014<br></div></h2>
-=======
-				<h2><div style="margin-right:-350px"><br>SATURDAY MAY 24TH 2014<br></div></h2>
-				<h3><div style="margin-right:-350px"s><br>THE NUEVA SCHOOL<br></div></h3>
->>>>>>> FETCH_HEAD
+				<div style="color:rgb(114,114,114);top:30px"><br>THE NUEVA SCHOOL<br></div>
 			</a>
 			
 		</header>

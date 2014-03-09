@@ -1,11 +1,5 @@
 				<?php get_header(); ?>
-<<<<<<< HEAD
 
-	
-
-=======
-	
->>>>>>> 51fd83a96ddf1687fd3e784e68440b5282d79deb
 				<section class="flexslider row">
 
 					<ul class="slides">
@@ -43,7 +37,7 @@
 					
 					<div class="eight columns entry-content">
 				<h2 class="entry-title">Private: Tester the Test</h2>
-						<p>Bleeahhh baleahhadhfkljeaereraer</p>
+						<p>Testing</p>
 						
 											
 					</div> <!-- entry-content -->
@@ -112,131 +106,8 @@
 
 				</section>
 
-									
-
-				<section class="recentNews row">
-
 				
 
-					<h2>Recent News</h2>
-
-					
-
-					<?php
-
-						$args = array(
-
-			  				'posts_per_page' => 3,
-
-			  				'year' => '2012'
-
-							);
-
-						query_posts($args);
-
-					?>
-
-					
-
-					<div class="row">
-
-						<?php while (have_posts()) : the_post(); ?>
-
-						<article id="post-<?php the_ID(); ?>" class="four columns">
-
-							<header>
-
-								<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-
-								<p>Posted on: <?php the_time('F jS, Y') ?></p>
-
-							</header>
-
-							<?php the_excerpt(); ?>
-
-							<a href="<?php the_permalink(); ?>" class="readMore">Read More</a>
-
-						</article>
-
-						<?php endwhile; // End the loop ?>
-
-						<?php wp_reset_query(); ?>
-
-					</div>
-
-					
-
-					<a href="/news" class="sectionCTA row">read all the <span class="tedx">TEDx</span><span class="yyc">YYC</span> news</a>
-
-					
-
-				</section>
-
-				
-
-				<section class="videoPicks row">
-
-					
-
-					<div class="row">
-
-				
-
-						<div class="three columns">
-
-							<h2>TED Video Picks</h2>
-
-							<p>We are big supporters of sharing and collaboration, and want to know where you get your inspiration. <a href="mailto:info@tedxyyc.com?subject=TED Video Pick Suggestion&body=Here's my TED Video Pick suggestion and why…" class="readMore">Submit your favourite TED talk.</a></p>
-
-						</div>
-
-						
-
-						<?php
-
-						$args = array(
-
-							'post_type' => 'videopick',
-
-			  				'posts_per_page' => 3
-
-							);
-
-						query_posts($args);
-
-						?>
-
-						<?php while (have_posts()) : the_post(); ?>
-
-						<a href="<?php the_permalink(); ?>" id="post-<?php the_ID(); ?>" class="videoPick three columns">
-
-							<?php the_post_thumbnail('video_thumb', array(
-
-									'alt' => ''.get_the_title().'',
-
-									'title' => ''.get_the_title().'' 
-
-								)); ?>
-
-							<h3><?php the_title(); ?></h3>
-
-						</a>
-
-						<?php endwhile; // End the loop ?>
-
-						<?php wp_reset_query(); ?>
-
-					
-
-					</div>
-
-					
-
-					<a href="/ted-video-picks/" class="sectionCTA row">view all the favourite <span class="tedx">TED</span> talks</a>
-
-					
-
-				</section>
 
 				
 
