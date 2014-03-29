@@ -50,11 +50,16 @@
 				));
 			?>
 		</section>
+		<section class="legalStuff three columns clearfix">
+			<h2>What Is TEDx?</h2>
+			<p></p>
+		</section>
 		
 		<section class="legalStuff three columns clearfix">
 			<h2>Legal Stuff</h2>
 			<p>This independent TEDx event is operated under license from TED.</p>
 		</section>
+
 		
 	</footer>
 
